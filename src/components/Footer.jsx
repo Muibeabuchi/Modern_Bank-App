@@ -36,7 +36,7 @@ const Footer = () => {
         <div className='hidden space-x-6 md:flex flex-row  items-center flex-1 justify-end'>
           {socialMedia.map(({id,icon,link})=>(
             
-            <a href={link} key={id }  className='w-[27px] h-[27px] text-white'>
+            <a href={link} key={id } target='_blank' className='w-[27px] h-[27px] text-white'>
               <img src={icon} alt="icon" />
             </a>
             
